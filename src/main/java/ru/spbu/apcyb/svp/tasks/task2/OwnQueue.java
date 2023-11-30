@@ -31,18 +31,18 @@ public class OwnQueue<E> implements Queue<E> {
 
   @Override
   public boolean remove(Object o) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public E remove() throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public E element() {
     if (queue.isEmpty()) {
-      throw new NoSuchElementException("Метод не переопределен");
+      throw new NoSuchElementException();
     }
     return queue.get(0);
   }
@@ -51,63 +51,63 @@ public class OwnQueue<E> implements Queue<E> {
 
   @Override
   public boolean contains(Object o) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public Iterator<E> iterator() throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public Object[] toArray() throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public <T> T[] toArray(T[] a) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean addAll(Collection c) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public void clear() throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean retainAll(Collection c) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean removeAll(Collection c) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean containsAll(Collection c) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean offer(Object o) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
 
   @Override
   public E poll() throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
 
   @Override
   public E peek() throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод peek не переопределен");
+    throw new UnsupportedOperationException();
   }
 }

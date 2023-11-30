@@ -157,77 +157,77 @@ public class DoublyLinkedList<E> implements List<E> {
 
   @Override
   public Iterator<E> iterator() {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public Object[] toArray() throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public <T> T[] toArray(T[] a) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean containsAll(Collection<?> c) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean addAll(Collection<? extends E> c) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean addAll(int index, Collection<? extends E> c) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean removeAll(Collection<?> c) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public boolean retainAll(Collection<?> c) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public void clear() throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public E set(int index, E element) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public int indexOf(Object o) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public int lastIndexOf(Object o) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public ListIterator<E> listIterator() throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public ListIterator<E> listIterator(int index) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
   @Override
   public List<E> subList(int fromIndex, int toIndex) throws UnsupportedOperationException {
-    throw new UnsupportedOperationException("Метод не переопределен");
+    throw new UnsupportedOperationException();
   }
 
 }
